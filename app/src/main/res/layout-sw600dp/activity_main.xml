@@ -7,9 +7,11 @@
     tools:context=".MainActivity">
 
     <Button
+        android:layout_marginTop="16dp"
         android:id="@+id/toast"
-        android:layout_width="478dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:background="@color/primary_blue"
         android:onClick="showToast"
         android:text="Toast"
@@ -17,9 +19,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:layout_marginTop="16dp"
         android:id="@+id/count"
-        android:layout_width="479dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:background="@color/primary_blue"
         android:onClick="addCount"
         android:text="Count"
